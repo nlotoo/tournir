@@ -3,16 +3,24 @@ router = Router();
 
 const serverServices = require('../services/serverServices');
 
+
 router.get('/', async (req, res) => {
 
+   // add your viesw here
 
-    try {
-        let data = "Home page";
-        res.status(200).json(data);
-
-    } catch (err) {
-        res.status(401).json({ message: err });
-    }
 })
+
+// router.get('/about', async (req, res) => {
+
+//     // add your viesw here
+ 
+//  })
+
+
+// router.post('/post-neshto-si', async (req, res) => {
+
+//     // add your viesw here
+ 
+//  })
 
 module.exports = router;
