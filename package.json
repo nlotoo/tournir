@@ -1,0 +1,24 @@
+{
+  "name": "tournir",
+  "version": "1.0.0",
+  "description": "tour",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JNayden/tournir.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JNayden/tournir/issues"
+  },
+  "homepage": "https://github.com/JNayden/tournir#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
